@@ -47,7 +47,7 @@ function Home() {
     const [canGoForward, setCanGoForward] = React.useState(false);
     const [suggestions, setSuggestions] = React.useState([]);
     const [searchEngine, setSearchEngine] = React.useState(
-        localStorage.getItem("engine") || "https://duckduckgo.com/?q="
+        localStorage.getItem("engine") || "https://duckduckgo.com/?q=%s"
     );
     const [useSuggestions, setUseSuggestions] = React.useState(true);
     const [currentURL, setCurrentURL] = React.useState(homeURL);
