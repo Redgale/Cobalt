@@ -62,7 +62,7 @@ function InternalHome() {
                         xmlnsXlink="http://www.w3.org/1999/xlink"
                         viewBox="0 0 24 24"
                     >
-                        <title>Cobalt</title>
+                        <title>Andesine</title>
                         <path
                             fill={theme}
                             d="M 0 13.023 L 4.429 18.595 L 20.714 18.261 L 24 12.309 L 20.998 3.971 L 13.88 8.904 L 7.919 7.125 L 0 13.023 Z"
@@ -81,11 +81,11 @@ function InternalHome() {
                 </div>
             </div>
             <div className="footer">
-                <Obfuscated>Cog Network 2023 | </Obfuscated>
+                <Obfuscated>RedGale inc. 2026 | </Obfuscated>
                 <a target="_blank" href={discord}>
-                    <Obfuscated>Discord</Obfuscated>
+                    <Obfuscated></Obfuscated>
                 </a>
-                <Obfuscated> / </Obfuscated>
+                <Obfuscated></Obfuscated>
                 <a target="_blank" href={github}>
                     <Obfuscated>Source</Obfuscated>
                 </a>
