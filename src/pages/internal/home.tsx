@@ -83,9 +83,9 @@ function InternalHome() {
             <div className="footer">
                 <Obfuscated>RedGale inc. 2026 | </Obfuscated>
                 <a target="_blank" href={discord}>
-                    <Obfuscated></Obfuscated>
+                    <Obfuscated>Discord</Obfuscated>
                 </a>
-                <Obfuscated></Obfuscated>
+                <Obfuscated> / </Obfuscated>
                 <a target="_blank" href={github}>
                     <Obfuscated>Source</Obfuscated>
                 </a>
